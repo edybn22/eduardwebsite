@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
+    <title>My presentation website</title>
+</head>
+
+<body>
+    
+    <header>
+            <nav>
+                <div class="row" id="navigation">
+                    <ul class="main-nav js--main-nav">
+                        <li><a href="#" class="first-button">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#hobbiesact">Hobbies &amp; interest</a></li>
+                        <li><a href="#contact">Contact</a></li> 
+                    </ul> 
+                    <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
+                </div>
+            </nav>
+            <div class="title">
+                <h1>Eduard Bucataru</h1>
+                <p class="profession">WEB DEVELOPER</p>
+            </div>
+            <div>
+            <img src="resources/css/img/perfect.jpg" class="profile-photo" alt="profile photo">
+            </div>
+    </header>
+    
+    <section class="about-section js--section-features" id="about">
+            <div class="row">
+                <div class="col span-1-of-2" id="picture-with-me">
+                    <div class="about-me">
+                        <h1 class="ab-one">ABOUT<br>ME!</h1>
+                    </div>    
+                </div>
+                <div class="col span-1-of-2">
+                    <div class="about-two">
+                        <ul class="social-links">
+                    <li><a href="https://www.facebook.com/edy.bn"><i class="ion-social-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/edybn22/?hl=ro"><i class="ion-social-instagram"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/eduard-bucataru-8400ab16b/"><i class="ion-social-linkedin"></i></a></li>
+                    <li><a href="https://github.com/edybn22"><i class="fa fa-github cat"></i></a></li>
+                                   
+                    <div class="tooltip">
+                        <span class="tooltiptext">Download my CV</span>
+                        <li id="download-cv">
+                            <a href="resources/cv/cv-eduard-bucataru.pdf" download="cv-eduard-bucataru" class="download-icon">
+                                <ion-icon name="download-outline"></ion-icon>
+                            </a>
+                        </li>
+                    </div>
+                            
+                        </ul>
+                        
+                     <!--   start bullets  -->
+                    <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <p style="width:450px; height: 340px;" class="about-me-p">In a few words, I would describe myself as a very organized and focused person when it comes about my work, where I can express myself as best I can.<br>
+                    I meet deadlines, I am a creative person and also multitasking.</p>
+                  <div class="text">About me!</div>
+                </div>
+
+                <div class="mySlides fade">
+                  <ul style="width:450px; height: 340px;" class="education">
+                        <li>Certificate in business and tourism
+                            Academy of Economic Studies Bucharest, Bucharest (Romania)
+                            Faculty of Business and Tourism</li>
+                            <h6>2014–2017</h6>
+                        <li>High School Mircea cel Bătrân, Rm. Vâlcea (Romania)
+                            Sport profile Volleyball section</li>
+                            <h6>2011–2014</h6>
+                        <li>Primary School Take Ionescu, Rm. Vâlcea (Romania)</li>
+                            <h6>2004–2011</h6>
+                    </ul>
+                  <div class="text">Education</div>
+                </div>
+                            
+                <div class="mySlides fade">
+                  <ul style="width:450px; height: 340px;" class="bar-progress">
+                      <li><h3>HTML5</h3><span class="bar"><span class="html"></span>
+                          </span>  
+                      </li>
+                      <li><h3>CSS</h3><span class="bar"><span class="css"></span>
+                          </span>  
+                      </li>
+                      <li><h3>JavaScript</h3><span class="bar"><span class="javascript"></span>
+                          </span>  
+                      </li>
+                      <li><h3>React</h3><span class="bar"><span class="react"></span>
+                          </span>  
+                      </li>
+                      <li><h3>jQuery</h3><span class="bar"><span class="jquery"></span>
+                          </span>  
+                      </li>
+                      <li><h3>PosgreSQL</h3><span class="bar"><span class="posgresql"></span>
+                          </span>  
+                      </li>
+                      <li><h3>MongoDB</h3><span class="bar"><span class="mongodb"></span>
+                          </span>  
+                      </li>
+                    </ul>  
+                  <div class="text">Skills</div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                </div>
+                <br>
+
+                <div style="text-align:center">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
+                        
+                <!--   final bullets  -->
+                    </div>
+                </div>
+            </div>
+            
+    </section>
+    
+    <section class="projects" id="projects">
+        <div class="row">
+            <h3>Personal Projects</h3>
+        </div>
+        
+        <div class="row" id="projects-id">
+            
+            <div class="col span-1-of-3">   
+                
+                    <div class="container">
+                        <div class="project" >
+                            <iframe src="https://smart-brain-edy.herokuapp.com/" scrolling="no">
+                            </iframe>
+                            <div class="middle">
+                            <div class="textar"><a href="https://smart-brain-edy.herokuapp.com/" target="_blank">Smart-brain</a></div>
+                            </div>
+                        </div>  
+                    </div>
+            </div>
+            
+            <div class="col span-1-of-3">
+                    <div class="container">
+                        <div class="project">
+                            <iframe src="https://omnifood-project-me.000webhostapp.com/" scrolling="no"></iframe>
+                            <div class="middle">
+                            <div class="textar"><a href="https://omnifood-project-me.000webhostapp.com/" target="_blank">Omnifood</a></div>
+                            </div>
+                        </div>
+                    </div>  
+            </div>
+            
+            <div class="col span-1-of-3">
+                    <div class="project">
+                        <div class="bgimg">
+                          <div class="middlee">
+                            <h1>COMING SOON</h1>
+                            <hr>
+                            <p id="demo" style="font-size:30px"></p>
+                          </div>
+                        </div>    
+            </div>
+        </div>
+            </div>
+    </section>
+        
+        <section class="hobbies section-meals" id="hobbiesact">
+            <h3 class="hobbies">Hobbies &amp; Interest</h3>
+            <div class="row">
+                
+                    <div class="column">
+                        <img src="resources/css/img/family1.jpg" class="myImg" alt="Family time" style="width:100%" class="image">
+                        <div class="overlay">Family time is precious</div>
+                    </div>
+                      <div class="column">
+                        <img src="resources/css/img/soccer.jpg" class="myImg" alt="I love soccer, but I like to play all kind of sports" style="width:100%" class="image" >
+                          <div class="overlay">I love soccer, but I like to play all kind of sports</div>
+                      </div>
+                      <div class="column">
+                        <img src="resources/css/img/gratar.jpg" class="myImg" alt="Barbeque with friends" style="width:100%" class="image">
+                          <div class="overlay">Barbeque with friends</div>
+                      </div>
+                      <div class="column">
+                        <img src="resources/css/img/travel2.jpg" alt="Travelling" style="width:100%" class="myImg">
+                          <div class="overlay">I want to travel everywhere</div>
+                      </div>  
+                
+                  <div id="myModal" class="modal">
+                      <span class="close">&times;</span>
+                      <img class="modal-content" id="img01">
+                      <div id="caption"></div>
+                    </div>
+
+          </div>
+            
+            <div class="row">
+                  <div class="column">
+                    <img src="resources/css/img/traindog.jpg" alt="Having fun with my dog Lucky" style="width:100%" class="myImg">
+                      <div class="overlay">Having fun with my dog Lucky</div>
+                  </div>
+                  <div class="column">
+                    <img src="resources/css/img/pizza.jpg" alt="I like cooking, especially pizza" style="width:100%" class="myImg">
+                      <div class="overlay">I like cooking, especially pizza</div>
+                  </div>
+                  <div class="column">
+                    <img src="resources/css/img/film.jpg" alt="Movie time is a part of my relaxing activities" style="width:100%" class="myImg">
+                      <div class="overlay">Movie time is a part of my relaxing activities</div>
+                  </div>
+                  <div class="column">
+                    <img src="resources/css/img/learn.jpg" alt="I like to read and my area of interest are bibliography books" style="width:100%" class="myImg">
+                      <div class="overlay">I like to read and my area of interest are bibliography books</div>
+                  </div> 
+                 
+        
+        </div>
+            
+             
+<hr class="style-two">
+            
+        </section>
+   
+    
+    <section class="contact" id="contact">
+            <h3 class="contact-title">Get in touch!</h3>
+                <div class="row">
+                   
+                   <div class="col span-1-of-2" id="contact-pg">
+                       <div class="con">
+                        <p class="pg-one">Contact</p>
+                        <p class="street">Bucharest, Romania</p>
+                        <p>Tel: 0729240520</p>
+                        </div>   
+                        <ul class="social-links" id="links">
+                            <li><a href="https://www.facebook.com/edy.bn"><i class="ion-social-facebook"></i></a></li>
+                            <li><a href="https://www.instagram.com/edybn22/?hl=ro"><i class="ion-social-instagram"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/eduard-bucataru-8400ab16b/"><i class="ion-social-linkedin"></i></a></li>
+                            <li><a href="https://github.com/edybn22"><i class="fa fa-github cat"></i></a></li>
+                       </ul>
+                    </div> 
+                    
+                   
+                        <div class="containe">
+                          <form action="/contact.php" method="POST">
+                            <label for="fname">First Name</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                            <label for="lname">Last Name</label>
+                            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                            <label for="subject">Subject</label>
+                            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                            <input type="submit" value="Submit">
+                          </form>
+                        </div>
+
+                </div>
+
+        </section>    
+
+        <footer>
+            <div class="row">
+                <a href="#">    <ion-icon name="arrow-up-outline" id="arrow"></ion-icon></a>
+                <p>Copyright &copy; 2020 by Eduard. All right reserved</p>
+            </div>
+    
+        </footer>
+    
+    
+    
+        
+
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js">
+        </script>
+        <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+        <script src="vendors/js/jquery.waypoints.min.js"></script>
+        <script src="resources/js/script.js"></script>
+</body>
+
+</html>
