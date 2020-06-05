@@ -100,4 +100,7 @@
 /* small phones:from 0 to 480px;*/
 @media only screen and (max-width: 480px) {
     section { padding: 25px 0;}
+    .about-me-p {max-width: 280px;margin: 0 auto;}
+    .education {max-width: 280px; margin: 0 auto;padding-top: 0px;}
+    .bar-progress {max-width: 280px; margin: 0 auto;}
 }
