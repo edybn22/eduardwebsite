@@ -1,2 +1,2 @@
 # eduardwebsite
-my portofolio website
+https://edybn22.github.io/eduardwebsite/
