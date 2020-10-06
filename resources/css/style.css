@@ -73,7 +73,6 @@ header {
     -webkit-backface-visibility: hidden; 
     backface-visibility: hidden;
     position: static;
-    margin-top: 300px;
 }
 
 .title {
